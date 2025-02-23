@@ -7,7 +7,7 @@ class TodoLike {
   async createTodoLike(body) {
     const user_no = await DataCheck.getUserNo(body.id);
 
-    const result = await TodoLikeStorage.addTodoLike(body.todo_no, user_no);
+    const result = await TodoLikeStorage.createTodoLike(body.todo_no, user_no);
 
     if (!result) {
       return { success: false };
