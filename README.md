@@ -21,7 +21,7 @@
 ## 구성원별 파트 담당
 |구성원|담당 파트|
 |----|----|
-|장준영|todo list CRUD, todo list 댓글|
+|장준영|todo list CRUD, todo list 댓글, 이메일로 비밀번호 찾기|
 |이재현|다이어리 CRDU, 다이어리 댓글|
 |박선우|회원 CRUD, 친구 관련 CRDU|
 
